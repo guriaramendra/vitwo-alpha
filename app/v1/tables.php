@@ -36,6 +36,8 @@ if(!defined("ERP_VENDOR_DETAILS")) 					define("ERP_VENDOR_DETAILS",$tablePrefix
 if(!defined("ERP_CURRENCY_TYPE")) 					define("ERP_CURRENCY_TYPE",$tablePrefix."currency_type");
 if(!defined("ERP_LANGUAGE")) 					    define("ERP_LANGUAGE",$tablePrefix."language");
 if(!defined("ERP_CREDIT_TERMS")) 					define("ERP_CREDIT_TERMS",$tablePrefix."credit_terms");
+if(!defined("ERP_COMPANY_FUNCTIONALITIES")) 	    define("ERP_COMPANY_FUNCTIONALITIES",$tablePrefix."company_functionalities");
+if(!defined("ERP_BRANCH_OTHERSLOCATION")) 	    define("ERP_BRANCH_OTHERSLOCATION",$tablePrefix."branch_otherslocation");
 
 if(!defined("ERP_PURCHASE_BILLS"))                  define("ERP_PURCHASE_BILLS",$tablePrefix."branch_bills");
 if(!defined("ERP_PURCHASE_BILLS_ITEMS"))            define("ERP_PURCHASE_BILLS_ITEMS",$tablePrefix."branch_bills_items");

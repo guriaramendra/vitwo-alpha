@@ -733,7 +733,7 @@ function getAllLanguage()
 }
 
 
-function addNewAdministratorUserGlobal($POST = [])
+function addNewAdministratorUserGlobal($POST = [],$adminrole=null)
 {
     global $dbCon;
     $returnData = [];
@@ -755,7 +755,11 @@ function addNewAdministratorUserGlobal($POST = [])
         $adminEmail = $POST["adminEmail"];
         $adminPhone = $POST["adminPhone"];
         $adminPassword = $POST["adminPassword"];
-        $adminRole = 1;
+        if(!empty($adminrole)){
+            $adminRole = $adminrole;
+        }else{
+            $adminRole = 1;
+        }
         $tableName = $POST["tablename"];
 
 
