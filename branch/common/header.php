@@ -36,6 +36,14 @@
   <link rel="stylesheet" href="../public/assets/plugins/bs-stepper/css/bs-stepper.min.css">
 
   <link rel="stylesheet" href="../public/assets/sass/custom.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"rel="stylesheet">
+
+  <link rel="stylesheet" href="../public/assets/style.css">
+ 
+
+
+
 <style>
   
 

@@ -65,6 +65,7 @@
 <script src="../public/assets/AdminLte/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="../public/assets/AdminLte/dist/js/pages/dashboard.js"></script>
+
 <script>
 
 // ***//
@@ -117,5 +118,6 @@ $("#selector5").click(function() {
 
 </script>
 <script src="../public/assets/plugins/select2/js/select2.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.0.0.js"></script>
 </body>
 </html>
